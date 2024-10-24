@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "4-bit Array Multiplier"      # Project title
+  author:       "Vineet Bhat"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Uses a structural design utilizing full adders for multiplying two 4-bit inputs"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,14 +22,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "m[0]"
+  ui[1]: "m[1]"
+  ui[2]: "m[2]"
+  ui[3]: "m[3]"
+  ui[4]: "p[0]"
+  ui[5]: "p[1]"
+  ui[6]: "p[2]"
+  ui[7]: "p[3]"
 
   # Outputs
   uo[0]: ""
