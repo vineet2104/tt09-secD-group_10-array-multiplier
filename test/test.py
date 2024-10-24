@@ -39,7 +39,7 @@ async def test_project(dut):
     # one or more clock cycles, and asserting the expected output values.
 
     # Set the input values you want to test
-    dut.ui_in.value = 0b010000010
+    dut.ui_in.value = 0b01000010
     
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
